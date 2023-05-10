@@ -152,8 +152,19 @@ img {
     }
 }
 
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .container {
       width:100%;
+    }
+
+    .row
+    {
+        flex-wrap:wrap;
+    }
+
+    .col
+    {
+        flex-basis:100%;
+        margin-top:50px;
     }
 }
